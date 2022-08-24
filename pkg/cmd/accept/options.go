@@ -19,7 +19,7 @@ type Options struct {
 	Values Values
 }
 
-//Values: The values used in the template
+// Values: The values used in the template
 type Values struct {
 	Clusters []string
 }

@@ -230,7 +230,7 @@ func waitUntilRegistrationOperatorConditionIsTrue(f util.Factory, timeout int64)
 		})
 }
 
-//Wait until the klusterlet condition available=true, or timeout in $timeout seconds
+// Wait until the klusterlet condition available=true, or timeout in $timeout seconds
 func waitUntilKlusterletConditionIsTrue(f util.Factory, timeout int64) error {
 	client, err := f.KubernetesClientSet()
 	if err != nil {
@@ -277,7 +277,7 @@ func waitUntilKlusterletConditionIsTrue(f util.Factory, timeout int64) error {
 	)
 }
 
-//Create bootstrap with token but without CA
+// Create bootstrap with token but without CA
 func (o *Options) createExternalBootstrapConfig() clientcmdapiv1.Config {
 	return clientcmdapiv1.Config{
 		// Define a cluster stanza based on the bootstrap kubeconfig.

@@ -18,7 +18,8 @@ import (
 	version "open-cluster-management.io/clusteradm/pkg/helpers/version"
 )
 
-//TODO add to a common folder
+// TODO add to a common folder
+//
 //nolint:deadcode,varcheck
 const (
 	klusterletName                 = "klusterlet"

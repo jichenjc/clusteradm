@@ -16,7 +16,7 @@ type Options struct {
 	values     Values
 }
 
-//Values: The values used in the template
+// Values: The values used in the template
 type Values struct {
 	hubAddons []string
 }

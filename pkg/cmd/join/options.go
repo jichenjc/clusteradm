@@ -6,7 +6,7 @@ import (
 	genericclioptionsclusteradm "open-cluster-management.io/clusteradm/pkg/genericclioptions"
 )
 
-//Options: The structure holding all the command-line options
+// Options: The structure holding all the command-line options
 type Options struct {
 	//ClusteradmFlags: The generic options from the clusteradm cli-runtime.
 	ClusteradmFlags *genericclioptionsclusteradm.ClusteradmFlags
@@ -33,7 +33,7 @@ type Options struct {
 	forceHubInClusterEndpointLookup bool
 }
 
-//Values: The values used in the template
+// Values: The values used in the template
 type Values struct {
 	//ClusterName: the name of the joined cluster on the hub
 	ClusterName string
